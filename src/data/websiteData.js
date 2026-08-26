@@ -10,18 +10,23 @@
 // =========================================================================
 
 // ---- 1. SITE-WIDE SETTINGS (change these first) -------------------------
+import image2 from '../images/2.jpeg'
+import image3 from '../images/3.jpeg'
+import image4 from '../images/4.jpeg'
+import image5 from '../images/5.jpeg'
+
 export const siteConfig = {
-  siteName: 'Sri Siddhi Vinayaka Astrology & Vastu Centre',
-  shortName: 'Sri Siddhi Vinayaka',
+  siteName: 'Sri Guru Raghavendra Astro Centre',
+  shortName: 'Sri Guru Raghavendra',
   tagline: 'Authentic Vedic Astrology • Vastu • Spiritual Guidance',
-  phone: '+91 90191 95095',
+  phone: '+91 63639 13202',
   // WhatsApp needs the number WITHOUT "+" or spaces, that's why it's separate:
-  whatsappNumber: '919019195095',
-  email: 'info@example.com',
-  address: 'Sri Siddhi Vinayaka Astrology Centre, Bengaluru, Karnataka, India',
+  whatsappNumber: '916363913202',
+  email: 'srigururaghavendraastro001@gmail.com',
+  address: 'Sri Guru Raghavendra Astro Centre, Bengaluru, Karnataka, India',
   hours: 'Monday – Sunday, 9:00 AM – 8:00 PM',
   mapEmbedUrl:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31112.32!2d77.5946!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU4JzE3LjgiTiA3N8KwMzUnNDAuNiJF!5e0!3m2!1sen!2sin!4v1620000000000',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.093014392857!2d77.39479159999999!3d13.093291299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae258840759251%3A0xd3ac31544253c551!2sSri%20Guru%20Raghavendra%20astro%20centre!5e0!3m2!1sen!2sin!4v1787740449197!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy ',
   socials: {
     instagram: 'http://localhost:5173/',
     facebook: 'http://localhost:5173/',
@@ -73,8 +78,7 @@ export const quickServices = [
 // ---- 4. ABOUT SECTION ------------------------------------------------------
 export const aboutContent = {
   heading: 'Trusted Vedic Guidance With Traditional Wisdom',
-  image:
-    'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1200&auto=format&fit=crop',
+  image: image4,
   paragraphs: [
     'With over 15 years of experience in Vedic astrology and Vastu Shastra, our centre offers guidance that blends ancient scriptures with a practical, modern understanding of everyday life.',
     'Every consultation is personalized — we study your birth chart in detail before offering remedies or advice, and every session is kept completely confidential.',
@@ -114,17 +118,17 @@ export const services = [
 export const expertise = [
   {
     title: 'Vedic Astrology',
-    image: 'https://images.unsplash.com/photo-1532968961962-8a0cb3a2d4f5?q=80&w=1200&auto=format&fit=crop',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtALvm6qzTnasJzsP3m53WRwohty0YCd49CN54pn4IYQ&s=10 ',
     description: 'Birth chart analysis, planetary positions, timing (dasha) and personalized guidance based on classical Vedic texts.',
   },
   {
     title: 'Vastu Shastra',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_jI09sOANSW7OqfHm_uh7T26_0J5vqf62PsQugwLGuZT4VykJcPxwWHoP&s=10',
     description: 'Guidance for homes, offices, businesses and property layouts to bring balance and positive energy.',
   },
   {
     title: 'Spiritual Remedies',
-    image: 'https://images.unsplash.com/photo-1604881991720-f91add269bed?q=80&w=1200&auto=format&fit=crop',
+    image: 'https://m.media-amazon.com/images/I/81HjGIwgwLL._UF1000,1000_QL80_.jpg ',
     description: 'Traditional prayers, pujas, meditation guidance and positive spiritual practices for wellbeing.',
   },
 ]
@@ -196,39 +200,35 @@ export const testimonials = [
 // ---- 11. VIDEO / WISDOM SECTION -------------------------------------------------
 export const videos = [
   {
-    title: 'Understanding Your Birth Chart',
-    thumbnail: 'https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?q=80&w=1200&auto=format&fit=crop',
+    title: 'How to Read Your Birth Chart',
+    thumbnail: image4,
   },
   {
-    title: 'Introduction to Vastu',
-    thumbnail: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1200&auto=format&fit=crop',
+    title: 'Vastu Principles for a Balanced Home',
+    thumbnail: image3,
   },
   {
-    title: 'Importance of Spiritual Remedies',
-    thumbnail: 'https://images.unsplash.com/photo-1518481852452-9415b262eba4?q=80&w=1200&auto=format&fit=crop',
+    title: 'Traditional Puja and Spiritual Remedies',
+    thumbnail: image5,
   },
 ]
 
 // ---- 12. GALLERY -----------------------------------------------------------------
 export const galleryImages = [
-  { alt: 'Astrology consultation session', src: 'https://images.unsplash.com/photo-1596526131083-e8c633c948d2?q=80&w=800&auto=format&fit=crop' },
-  { alt: 'Temple visit', src: 'https://images.unsplash.com/photo-1609951651556-5334e2706168?q=80&w=800&auto=format&fit=crop' },
-  { alt: 'Puja ceremony', src: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop' },
-  { alt: 'Meditation session', src: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop' },
-  { alt: 'Spiritual ceremony', src: 'https://images.unsplash.com/photo-1609599006353-e629aaabfeae?q=80&w=800&auto=format&fit=crop' },
-  { alt: 'Guru guidance session', src: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800&auto=format&fit=crop' },
-  { alt: 'Vastu consultation visit', src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop' },
-  { alt: 'Devotional event', src: 'https://images.unsplash.com/photo-1571907480495-3c8b2a2c2b1f?q=80&w=800&auto=format&fit=crop' },
+  { alt: 'Astrology consultation session', src: image2 },
+  { alt: 'Temple visit', src: image3 },
+  { alt: 'Puja ceremony', src: image4 },
+  { alt: 'Meditation session', src: image5 },
 ]
 
 // ---- 13. PUJAS & RITUALS ----------------------------------------------------------
 export const pujas = [
-  { title: 'Ganapati Puja', image: 'https://images.unsplash.com/photo-1600691249779-ee42f6c2b1d2?q=80&w=800&auto=format&fit=crop', description: 'Performed to remove obstacles and bring auspicious beginnings.' },
-  { title: 'Navagraha Puja', image: 'https://images.unsplash.com/photo-1604881991720-f91add269bed?q=80&w=800&auto=format&fit=crop', description: 'Performed to balance the influence of the nine planets.' },
-  { title: 'Maha Mrityunjaya Puja', image: 'https://images.unsplash.com/photo-1609951651556-5334e2706168?q=80&w=800&auto=format&fit=crop', description: 'Performed for health, longevity and protection from difficulties.' },
-  { title: 'Lakshmi Puja', image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop', description: 'Performed to invite prosperity and abundance into the home.' },
-  { title: 'Durga Puja', image: 'https://images.unsplash.com/photo-1567591414240-8a55f0a53f4a?q=80&w=800&auto=format&fit=crop', description: 'Performed to seek strength, courage and protection.' },
-  { title: 'Rudrabhishek', image: 'https://images.unsplash.com/photo-1596526131083-e8c633c948d2?q=80&w=800&auto=format&fit=crop', description: 'A sacred ritual dedicated to Lord Shiva for peace and wellbeing.' },
+  { title: 'Ganapati Puja', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDC584D9UmfP_Iz8WXGvEaZPeeQw5jOvHwxgHVJoor5Q&s=10', description: 'Performed to remove obstacles and bring auspicious beginnings.' },
+  { title: 'Navagraha Puja', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXGXeVIq7bHoj__YUNrPGhZ2hTgVsNkPh08UHIdW-utesr4qprROM-uGqK&s=10', description: 'Performed to balance the influence of the nine planets.' },
+  { title: 'Maha Mrityunjaya Puja', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToW7T4PuCFFxsv7UeW7IB6C7DGmsRgHzdAepHArBnCmePGzIIy9fJRS2E&s=10', description: 'Performed for health, longevity and protection from difficulties.' },
+  { title: 'Lakshmi Puja', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC5kNoZSlKugJ1TUNdT7RMSDix32dxQvOpPWwURFn4x_rnJQw4enO8TA8&s=10', description: 'Performed to invite prosperity and abundance into the home.' },
+  { title: 'Durga Puja', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ssMpyh8pdjanmyt_KE_SSZCewuVFvASC9QgxGfzNni948IL8nKMefQY&s=10', description: 'Performed to seek strength, courage and protection.' },
+  { title: 'Rudrabhishek', image: 'https://temple.yatradham.org/public/Product/puja-rituals/puja-rituals_59LUZYof_202503271645010.webp', description: 'A sacred ritual dedicated to Lord Shiva for peace and wellbeing.' },
 ]
 
 // ---- 14. SERVICE OPTIONS FOR THE CONTACT FORM DROPDOWN -----------------------------

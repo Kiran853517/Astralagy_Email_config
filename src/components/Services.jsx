@@ -28,7 +28,7 @@ export default function Services() {
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
                 <a href="#contact" className="card-link">
-                  Learn More →
+                Enquiry →
                 </a>
               </div>
             )
