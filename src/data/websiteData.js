@@ -97,10 +97,10 @@ export const aboutContent = {
 
 // ---- 5. STATS SECTION -------------------------------------------------------
 export const stats = [
-  { value: 21+, suffix: '+', label: 'Years Experience' },
+  { value: 21, suffix: '+', label: 'Years Experience' },
   { value: 10000, suffix: '+', label: 'Consultations' },
-  { value: 26000+, suffix: '+', label: 'Happy Clients' },
-  { value: 22+, suffix: '+', label: 'Specialized Services' },
+  { value: 26000, suffix: '+', label: 'Happy Clients' },
+  { value: 22, suffix: '+', label: 'Specialized Services' },
 ]
 
 // ---- 6. MAIN SERVICES SECTION -----------------------------------------------
