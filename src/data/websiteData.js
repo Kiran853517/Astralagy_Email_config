@@ -33,7 +33,7 @@ export const siteConfig = {
   socials: {
     instagram: 'https://www.instagram.com/sri_guru_raghavendra_astro?igsi=MTZpNGo1dGZ2ZHM1Ng==',
     facebook: 'https://www.facebook.com/share/1EQ5gvCQRW/',
-    youtube: 'https://www.youtube.com/@SriGuruRaghavendraastrocentregit ',
+    youtube: 'https://www.youtube.com/@SriGuruRaghavendraastrocentre',
     whatsapp: 'https://wa.me/916363913202',
   },
 }
