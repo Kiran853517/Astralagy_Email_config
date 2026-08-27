@@ -84,7 +84,7 @@ export default function Footer() {
             <a href={siteConfig.socials.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <Instagram size={18} />
             </a>
-            <a href={siteConfig.socials.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <a href={siteConfig.socials.facebook} target="https://www.instagram.com/sri_guru_raghavendra_astro?igsi=MTZpNGo1dGZ2ZHM1Ng==" rel="noopener noreferrer" aria-label="Facebook">
               <Facebook size={18} />
             </a>
             <a href={siteConfig.socials.youtube} target="_blank" rel="noopener noreferrer" aria-label="YouTube">
