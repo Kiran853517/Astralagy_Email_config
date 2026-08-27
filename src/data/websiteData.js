@@ -14,6 +14,9 @@ import image2 from '../images/2.jpeg'
 import image3 from '../images/3.jpeg'
 import image4 from '../images/4.jpeg'
 import image5 from '../images/5.jpeg'
+import birthChartVideo from '../images/From Klickpin.com- Handmade Card Ideas That Will Inspire You 84842-pin-id-971581319628306679.mp4'
+import vastuVideo from '../images/From Klickpin.com- Handmade Card Ideas That Will Inspire You 84842-pin-id-94857135899160858.mp4'
+import pujaVideo from '../images/From Klickpin.com- Handmade Card Ideas That Will Inspire You 84842-pin-id-883690758154734125.mp4'
 
 export const siteConfig = {
   siteName: 'Sri Guru Raghavendra Astro Centre',
@@ -201,15 +204,15 @@ export const testimonials = [
 export const videos = [
   {
     title: 'How to Read Your Birth Chart',
-    thumbnail: image4,
+    src: birthChartVideo,
   },
   {
     title: 'Vastu Principles for a Balanced Home',
-    thumbnail: image3,
+    src: vastuVideo,
   },
   {
     title: 'Traditional Puja and Spiritual Remedies',
-    thumbnail: image5,
+    src: pujaVideo,
   },
 ]
 

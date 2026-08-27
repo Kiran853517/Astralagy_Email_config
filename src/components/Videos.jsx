@@ -17,7 +17,7 @@ export default function Videos() {
         <div className="video-grid">
           {videos.map((video) => (
             <div className="video-card" key={video.title} onClick={() => setActiveVideo(video)}>
-              <img src={video.thumbnail} alt={video.title} />
+              <video src={video.src} muted preload="metadata" aria-label={video.title} />
               <div className="video-overlay">
                 <div className="play-btn">
                   <Play size={22} fill="currentColor" />
@@ -36,10 +36,8 @@ export default function Videos() {
             <X size={30} />
           </button>
           <div onClick={(e) => e.stopPropagation()}>
-            <img src={activeVideo.thumbnail} alt={activeVideo.title} />
-            <p style={{ color: '#fff', textAlign: 'center', marginTop: 16 }}>
-              {activeVideo.title} — replace this placeholder with a real embedded YouTube video.
-            </p>
+            <video className="lightbox-video" src={activeVideo.src} controls autoPlay playsInline />
+            <p style={{ color: '#fff', textAlign: 'center', marginTop: 16 }}>{activeVideo.title}</p>
           </div>
         </div>
       )}
