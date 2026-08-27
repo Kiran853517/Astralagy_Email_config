@@ -12,7 +12,6 @@ const navItems = [
   { label: 'Testimonials', id: 'testimonials' },
   { label: 'Gallery', id: 'gallery' },
   { label: 'Pujas', id: 'pujas' },
-  { label: 'FAQ', id: 'faq' },
   { label: 'Contact', id: 'contact' },
 ]
 
@@ -49,14 +48,14 @@ export default function Header() {
           <span className="brand-om">ॐ</span>
           <div className="brand-text">
             <h1>{siteConfig.shortName} Astrology Centre</h1>
-            <p>{siteConfig.tagline}</p>
+         
           </div>
         </div>
 
         {/* Desktop nav links */}
         <nav className="nav-links">
           {navItems.map((item) => (
-            <button key={item.id} onClick={() => scrollToSection(item.id)}>
+            <button style={{width:"70px"}} key={item.id} onClick={() => scrollToSection(item.id)}>
               {item.label}
             </button>
           ))}

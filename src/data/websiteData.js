@@ -169,6 +169,7 @@ export const faqs = [
       'Yes, we offer consultations over video call or phone for clients who cannot visit the centre in person.',
   },
   {
+    
     question: 'How long does a consultation take?',
     answer:
       'A typical consultation lasts between 30 to 60 minutes, depending on the complexity of the questions discussed.',
