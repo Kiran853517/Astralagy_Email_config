@@ -31,10 +31,10 @@ export const siteConfig = {
   mapEmbedUrl:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.093014392857!2d77.39479159999999!3d13.093291299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae258840759251%3A0xd3ac31544253c551!2sSri%20Guru%20Raghavendra%20astro%20centre!5e0!3m2!1sen!2sin!4v1787740449197!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy ',
   socials: {
-    instagram: 'http://localhost:5173/',
-    facebook: 'http://localhost:5173/',
+    instagram: 'https://www.instagram.com/sri_guru_raghavendra_astro?igsi=MTZpNGo1dGZ2ZHM1Ng==',
+    facebook: 'https://www.facebook.com/share/1EQ5gvCQRW/',
     youtube: 'http://localhost:5173/',
-    whatsapp: 'http://localhost:5173/',
+    whatsapp: 'https://wa.me/916363913202',
   },
 }
 
